@@ -1,0 +1,162 @@
+<resources>
+    <string name="app_name">Maa Annapurna Wholesale Bazzar</string>
+    <string name="server_url">https://wholesalebazzar.r1technologies.xyz/index.php?option=com_wholesalebazzar&amp;view=api</string>
+    <string name="image_url">https://wholesalebazzar.r1technologies.xyz</string>
+    <string name="url">https://wholesalebazzar.r1technologies.xyz/</string>
+    <string name="api_key">EcYfT2TwaJUDoy7L</string>
+    <string name="logo_slogan">A Division of RightOne Technologies</string>
+
+    <string name="check_internet">Please check your internet connection</string>
+
+    <string name="user_name">Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="password">Password</string>
+    <string name="city_name">Select City</string>
+    <string name="referral">Referral Code</string>
+    <string name="submit">Submit</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="signup_text">No account yet? </string>
+    <string name="signup">SignUp Now</string>
+    <string name="login_text">Already register?</string>
+    <string name="login1">Login Now</string>
+    <string name="user_success">An OTP has sent on the User\'s mobile</string>
+
+    <string name="otp_title">One Time Password</string>
+    <string name="otp_resend">Resend</string>
+    <string name="prompt_otp">One Time Password(OTP)</string>
+    <string name="action_verify">Verify Now</string>
+    <string name="otp_not_match">Invalid OTP</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="errorBlankCity">Please select a city</string>
+    <string name="errorBlankName">Please enter name</string>
+    <string name="errorBlankMobile">Please enter mobile</string>
+    <string name="errorBlankPassword">Please enter password</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_add_people">Add Members</string>
+    <string name="menu_logout">Logout</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="qv_add">+</string>
+    <string name="qv_remove">-</string>
+    <string name="mrp">WBP: ₹</string>
+    <string name="rupee">₹</string>
+    <string name="add">Add</string>
+    <string name="err_unit">Please select package</string>
+    <string name="err_qty">Quantity can not be zero</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_Cart">Cart</string>
+    <string name="action_Notification">Notification</string>
+    <string name="remove_cart">Remove</string>
+    <string name="action_empty_cart">Empty Cart</string>
+    <string name="alert_empty_cart">Do you want to empty cart?</string>
+
+    <string name="default_notification_channel_id">123</string>
+    <string name="fcm_message">Message</string>
+    <string name="view_cart">View Cart</string>
+
+    <string name="checkout">Checkout</string>
+    <string name="total_rupee">Total: ₹</string>
+    <string name="choose_address">Choose Address/Pay Mode</string>
+    <string name="choose_address_desc">Please choose/enter an address.</string>
+    <string name="choose_paymode_desc">Please choose a payment mode.</string>
+    <string name="delivery_date">Delivery Date</string>
+    <string name="paytm">PayTM</string>
+    <string name="pod">POD</string>
+    <string name="pod_str">Pay On Delivery (Cash/UPI)</string>
+    <string name="choose_delivery_slot">Choose preferred delivery slot on - </string>
+    <string name="confirm">Confirm Order &amp; Pay</string>
+    <string name="add_new">Add New</string>
+    <string name="err_address">Please select an address or Add new.</string>
+    <string name="err_payment_mode">Please select a payment mode.</string>
+
+    <string name="todays_deal">Today\'s Deals</string>
+    <string name="your_orders">Your Orders</string>
+    <string name="faqs">FAQs</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="terms">Terms &amp; Conditions</string>
+    <string name="downline">Downline</string>
+
+    <string name="process_payment">Processing payment....</string>
+
+    <string name="paytm_mid">VFaSAQ08364447480697</string>
+    <string name="paytm_merchant_key">qUuEfJ&amp;f368aQBa!</string>
+    <string name="paytm_website">WEBSTAGING</string>
+    <string name="paytm_industry_type">Retail</string>
+    <string name="trans_url">https://securegw-stage.paytm.in/theia/api/v1/initiateTransaction?mid=%s&amp;orderId=%s</string>
+    <string name="callback_url">https://securegw-stage.paytm.in/theia/paytmCallback?ORDER_ID=</string>
+    <!--
+    <string name="paytm_mid">VFaSAQ08364447480697</string>
+    <string name="paytm_secret_key">qUuEfJ&amp;f368aQBa!</string>
+    <string name="paytm_website">WEBSTAGING</string>
+    <string name="paytm_industry_type">Retail</string>
+    <string name="trans_url">https://securegw-stage.paytm.in/theia/processTransaction</string>
+    <string name="callback_url">https://securegw.paytm.in/theia/paytmCallback?ORDER_ID=</string>
+    -->
+    <string name="activity_newaddress">Add New Address</string>
+    <string name="default_address">Make it Default Address</string>
+    <string name="title">Title</string>
+    <string name="address">Address</string>
+    <string name="alt_phone">Alternate Number</string>
+
+    <string name="star_memeber">Star Member</string>
+    <string name="member">Member</string>
+
+    <string name="new_member">New Member Details</string>
+    <string name="add_new_member">Add New Member</string>
+    <string name="email">Email</string>
+    <string name="upline_name">Upline Name</string>
+    <string name="save_success">User saved successfully!</string>
+
+
+    <string name="coming_soon">Coming Soon</string>
+    <string name="no_records">No Records Found</string>
+    <string name="empty_cart">Cart is empty!</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="net_amount_payable">Net Payable Amount</string>
+    <string name="order_total">Order Total</string>
+    <string name="delivery_charge">Delivery Charge</string>
+    <string name="free_delivery">Note: Free delivery on orders above ₹ 1000</string>
+    <string name="sanitization_charge">Sanitization Charges</string>
+    <string name="continue_shopping">Continue Shopping</string>
+
+    <string name="view_orders">Your Orders</string>
+    <string name="view_deals">Exclusive Deals</string>
+    <string name="view_notifications">Your Notifications</string>
+    <string name="view_downline">Your Downline</string>
+    <string name="message_title">Message Title</string>
+    <string name="message">Message</string>
+    <string name="send_message">Send Message</string>
+
+    <string name="err_title">Please enter title</string>
+    <string name="err_message">Please enter message</string>
+    <string name="err_users">Please select members</string>
+
+    <string name="search_result">Search Results: </string>
+
+    <string name="order_thanks">Thank you for your order. Your order will be delivery by tomorrow.\n\nOrder details are given below - </string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

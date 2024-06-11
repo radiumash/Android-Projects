@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Crocosaurus Cove</string>
+    <string name="server_url">http://www.crocosauruscove.com/audioapp/index.php?option=com_croccov&amp;view=api</string>
+    <string name="zip_url">http://www.crocosauruscove.com/audioapp/media/com_croccov/</string>
+    <string name="api_key">1234567890</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_desc">to the Crocosaurus Cove</string>
+    <string name="welcome_desc1">Tour Guide Trail</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="bluetooth_desc">Turn on your device\'s Bluetooth connection\nto automatically connect to the\naudio beacon around the park</string>
+    <string name="language">Language</string>
+    <string name="language_desc">Please select a language</string>
+    <string name="trail">Trail</string>
+    <string name="trail_desc">Choose Your Audio Guide</string>
+    <string name="main">Main</string>
+    <string name="player">Player</string>
+
+    <string name="bluetooth_enabled">Bluetooth is now active.</string>
+    <string name="check_internet">Please check your internet connection</string>
+    <string name="file_download">Sit back and relax, your content is downloading....</string>
+    <string name="download_complete">Download completed</string>
+
+
+    <string name="head_text">LET\'S GET STARTED</string>
+    <string name="middle_text">Follow the croc feet trail</string>
+    <string name="bottom_text">Look for the below logo around the park</string>
+    <string name="unable_to_play">Unable to play</string>
+
+
+</resources>

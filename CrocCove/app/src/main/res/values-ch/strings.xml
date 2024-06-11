@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="head_text">让我们开始吧</string>
+    <string name="middle_text">沿着鳄鱼小径走</string>
+    <string name="bottom_text">在公园周围寻找下面的标志</string>
+    <string name="unable_to_play">无法玩</string>
+
+</resources>

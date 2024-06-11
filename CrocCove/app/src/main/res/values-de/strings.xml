@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="head_text">LATEN WE BEGINNEN</string>
+    <string name="middle_text">Volg de krokodillenpaad</string>
+    <string name="bottom_text">Kijk voor het onderstaande logo rond het park</string>
+    <string name="unable_to_play">Niet in staat om te spelen</string>
+
+</resources>

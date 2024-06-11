@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrailActivity">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/my_views"
+            android:layout_alignTop="@+id/my_views"
+            android:contentDescription="@string/trail"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/my_views"
+            android:orientation="vertical">
+            <TextView
+                android:text="@string/trail_desc"
+                android:id="@+id/tvHeading"
+                android:layout_above="@id/btnRangers"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="50dp"
+                android:textColor="@color/white"
+                android:textSize="75sp"
+                app:fontFamily="@font/saltash_grunge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnRangers"
+                android:layout_above="@id/btnDundee"
+                android:layout_marginBottom="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/rangers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnDundee"
+                android:layout_marginBottom="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/dundee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <ProgressBar
+            android:id="@+id/progress_loader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity = "center"
+            android:visibility="invisible" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

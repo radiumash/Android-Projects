@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.NewAddressActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/pin"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/txtTitle"
+                android:hint="@string/title"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:visibility="visible"
+                tools:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/txtAddress"
+                android:hint="@string/address"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:visibility="visible"
+                tools:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+
+            <EditText
+                android:id="@+id/txtAltPhone"
+                android:hint="@string/alt_phone"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:visibility="visible"
+                tools:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <CheckBox
+                android:id="@+id/chkDefaultAddress"
+                android:text="@string/default_address"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/mButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:background="@color/colorLink"
+                android:text="@string/submit"
+                android:textColor="#000000" />
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/mProgress"
+            android:visibility="invisible"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:theme="@style/RedAccent"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

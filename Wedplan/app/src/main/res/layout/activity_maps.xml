@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity" >
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#CCFFFFFF"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:visibility="visible">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.rightone.ROChildWater.SearchableEditText
+                android:id="@+id/serviceName"
+                android:textColor="#333333"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/service_name"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:visibility="visible"
+                tools:textSize="15sp" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="bottom"
+        android:background="#80000000"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:background="#CCde6926"
+            android:layout_marginEnd="1dp"
+            android:id="@+id/btCategory"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/title_home" />
+        <Button
+            android:id="@+id/btMapRadius"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:background="#CCde6926"
+            android:layout_marginStart="1dp"
+            android:textColor="@color/colorContainer"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/title_map" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="head_text">INIZIAMO</string>
+    <string name="middle_text">Segui la traccia dei piedi del coccodrillo</string>
+    <string name="bottom_text">Cerca il logo sottostante nel parco</string>
+    <string name="unable_to_play">Impossibile giocare</string>
+</resources>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="head_text">LASST UNS ANFANGEN</string>
+    <string name="middle_text">Folge den Krokodilfüssen</string>
+    <string name="bottom_text">Halte Ausschan nach dem Logo in Park</string>
+    <string name="unable_to_play">Niet in staat om te spelen</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/colorContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/alphaTextView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/alpha_bg"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="55sp" />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:textColor="#333333"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/titleTextView"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/alphaTextView" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style = "?android:attr/ratingBarStyleSmall"
+            android:layout_alignRight="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:numStars="5"
+            android:rating="4.5"
+            android:visibility="invisible"
+            android:stepSize=".1" />
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_toRightOf="@id/alphaTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="45dp"
+            android:paddingLeft="10dp"
+            android:textColor="#333333"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/reviewTextView"
+            android:layout_toRightOf="@id/alphaTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="60dp"
+            android:paddingLeft="10dp"
+            android:textColor="#333333"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

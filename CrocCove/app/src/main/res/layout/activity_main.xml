@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/my_views"
+            android:layout_alignTop="@+id/my_views"
+            android:contentDescription="@string/main"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg" />
+
+        <RelativeLayout
+            android:id="@+id/my_views"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvHeading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/head_text"
+                android:textColor="@color/white"
+                android:textSize="70sp"
+                app:fontFamily="@font/saltash_grunge" />
+
+            <TextView
+                android:id="@+id/tvMiddle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvHeading"
+                android:gravity="center_horizontal"
+                android:text="@string/middle_text"
+                android:textColor="@color/clrSean"
+                android:textSize="25sp"
+                app:fontFamily="@font/hand_of_sean" />
+
+            <ImageView
+                android:id="@+id/claw"
+                android:layout_width="190dp"
+                android:layout_height="122dp"
+                android:layout_below="@+id/tvMiddle"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/main"
+                android:scaleType="fitXY"
+                android:src="@drawable/claws" />
+
+            <TextView
+                android:id="@+id/tvBottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/claw"
+                android:gravity="center_horizontal"
+                android:text="@string/bottom_text"
+                android:textColor="@color/clrSean"
+                android:textSize="25sp"
+                app:fontFamily="@font/hand_of_sean" />
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvBottom"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/main"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo" />
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_loader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:visibility="visible" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

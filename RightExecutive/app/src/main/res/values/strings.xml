@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">RightOne Executive</string>
+    <string name="server_url">http://r1technologies.xyz/searchR/index.php?option=com_wedplan&amp;view=api</string>
+    <string name="image_url">http://r1technologies.xyz/searchR</string>
+    <string name="url">http://r1technologies.xyz/</string>
+    <string name="api_key">lvmZ0QWiZzzbxzgP</string>
+    <string name="logo_slogan">A Division of RightOne Technologies</string>
+
+    <!-- Strings related to login -->
+    <string name="login_title">Executive Login</string>
+    <string name="prompt_mobile">Mobile</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_mobile">This mobile number is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="otp_title">One Time Password</string>
+    <string name="otp_resend">Resend</string>
+    <string name="prompt_otp">One Time Password(OTP)</string>
+    <string name="action_verify">Verify Now</string>
+    <string name="otp_not_match">Invalid OTP</string>
+
+    <string name="home_title">Home</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_provider">ProviderActivity</string>
+
+
+    <string name="owner_name">Owner Name</string>
+    <string name="business_name">Business Name</string>
+    <string name="address">Address</string>
+    <string name="state_name">State</string>
+    <string name="city_name">City</string>
+    <string name="location_name">Location</string>
+    <string name="mobile_number">Mobile</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="other_number">Other Number</string>
+    <string name="subscription">Membership</string>
+    <string name="category_name">Category</string>
+    <string name="service_name">Service</string>
+    <string name="speciality">Speciality</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="description">Description</string>
+    <string name="email">Email</string>
+    <string name="website">Website</string>
+    <string name="save_provider">Save Provider</string>
+    <string name="update_provider">Update Provider</string>
+    <string name="view_map">View Map</string>
+    <string name="update">Update Now</string>
+    <string name="save">Save Now</string>
+    <string name="reset">Reset</string>
+
+    <string name="chk_executive">Executive Session Expired. Please login again</string>
+    <string name="chk_owner_name">Please enter Owner Name</string>
+    <string name="chk_business_name">Please enter Business Name</string>
+    <string name="chk_address">Please enter Address</string>
+    <string name="chk_state_name">Please select State</string>
+    <string name="chk_city_name">Please select City</string>
+    <string name="chk_location_name">Please select Location</string>
+    <string name="chk_mobile_number">Please enter Mobile</string>
+    <string name="chk_zip_code">Please enter Zip Code</string>
+
+    <string name="chk_subscription">Please select Membership</string>
+    <string name="chk_category_name">Please select Category</string>
+    <string name="chk_service_name">Please select Service</string>
+    <string name="chk_speciality">Please enter Speciality</string>
+    <string name="chk_latitude">Please select Latitude</string>
+    <string name="chk_longitude">Please select Longitude</string>
+    <string name="chk_business_pic">Please select Business Pic</string>
+    <string name="chk_profile_pic">Please select Profile Pic</string>
+
+    <string name="provider_success">Provider saved successfully. An OTP has sent on the Provider\'s mobile</string>
+    <string name="provider_active">Provider is active now</string>
+    <string name="check_internet">Please check your internet connection</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="default_info_title">Default Location</string>
+    <string name="default_info_snippet">No places found, because location permission is disabled.</string>
+    <string name="option_get_place">Get place</string>
+    <string name="pick_place">Choose a place</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

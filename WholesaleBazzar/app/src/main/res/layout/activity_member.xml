@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".activity.MemberActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:padding="10dp"
+                android:src="@drawable/person" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingBottom="20dp"
+                android:text="@string/new_member"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txtUName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/upline_name"
+                android:enabled="false"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:visibility="visible"
+                tools:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/uName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:hint="@string/user_name"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:visibility="visible"
+                tools:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mobile"
+                android:inputType="number"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:visibility="visible"
+                tools:textSize="15sp" />
+
+            <com.rightonetechnologies.wholesalebazzar.common.SearchableEditText
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_arrow_drop_down_black_24dp"
+                android:entries="@array/cities"
+                android:hint="@string/city_name"
+                android:maxLines="1"
+                android:singleLine="true"
+                tools:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/uEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:visibility="visible"
+                tools:textSize="15sp" />
+
+            <Switch
+                android:id="@+id/isstar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="10dp"
+                android:text="@string/star_memeber"
+                android:textColor="#AAA"
+                tools:textSize="18sp" />
+
+            <Button
+                android:id="@+id/mButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorLink"
+                android:text="@string/submit"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/upline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progress_loader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:theme="@style/RedAccent"
+            android:visibility="invisible" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

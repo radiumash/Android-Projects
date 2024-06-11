@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_favourites"
+            android:icon="@drawable/ic_favorite_red_24dp"
+            android:title="@string/favourites" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_location_city_red_24dp"
+            android:title="@string/change_city" />
+
+        <item
+            android:id="@+id/nav_addnew"
+            android:icon="@drawable/ic_fiber_new_red_24dp"
+            android:title="@string/new_listing" />
+
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="@string/privacy" />
+
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="@string/terms" />
+
+        <item
+            android:id="@+id/nav_disclaimer"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="@string/disclaimer" />
+
+        <item
+            android:id="@+id/nav_refund"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="@string/refund" />
+
+    </group>
+</menu>

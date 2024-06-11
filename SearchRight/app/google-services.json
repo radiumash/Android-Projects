@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "26697750611",
+    "firebase_url": "https://wholesale-bazzar-1293c.firebaseio.com",
+    "project_id": "wholesale-bazzar-1293c",
+    "storage_bucket": "wholesale-bazzar-1293c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26697750611:android:687dda1130a7e50d73cea6",
+        "android_client_info": {
+          "package_name": "com.rightone.SearchRight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26697750611-0icmmhld7shri216rqone502nin977ei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsoaF_Ls6z7vwKRHqSbBiBisjDPZEUz6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26697750611-0icmmhld7shri216rqone502nin977ei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26697750611:android:b0cf01887855b11673cea6",
+        "android_client_info": {
+          "package_name": "com.rightonetechnologies.wholesalebazzar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26697750611-0icmmhld7shri216rqone502nin977ei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsoaF_Ls6z7vwKRHqSbBiBisjDPZEUz6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26697750611-0icmmhld7shri216rqone502nin977ei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
