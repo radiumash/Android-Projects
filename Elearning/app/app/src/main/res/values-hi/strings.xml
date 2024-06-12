@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ई लर्निंग</string>
+    <string name="title_activity_login"> साइन इन करें </string>
+    <string name="prompt_username"> यूज़र नेम </string>
+    <string name="prompt_email"> ईमेल </string>
+    <string name="prompt_password"> पासवर्ड </string>
+    <string name="action_sign_in"> साइन इन करें </string>
+    <string name="action_sign_in_short"> साइन इन करें </string>
+    <string name="welcome"> "स्वागत हे!" </string>
+    <string name="invalid_username"> एक मान्य उपयोगकर्ता नाम नहीं है </string>
+    <string name="invalid_password"> पासवर्ड> 5 वर्ण </string> होना चाहिए
+    <string name="login_failed"> "लॉगिन विफल" </string>
+
+    <string name="check_internet"> कृपया अपना इंटरनेट कनेक्शन जांचें </string>
+    <string name="server_url"> http://apielearn.3eit.in/api/ </string>
+    <string name="image_url"> http://apielearn.3eit.in </string>
+    <string name="video_url"> http://apielearn.3eit.in/ </string>
+    <string name="api_key"> 987!elrn62asdfg32 </string>
+    <string name="title_activity_main"> ई-लर्निंग </string>
+    <string name="navigation_drawer_open"> नेविगेशन नेविगेशन खोलें </string>
+    <string name="navigation_drawer_close"> नेविगेशन ड्रावर बंद करें </string>
+    <string name="nav_header_title"> ई-लर्निंग </string>
+    <string name="nav_header_subtitle"> android.studio@android.com </string>
+    <string name="nav_header_desc"> नेविगेशन हेडर </string>
+    <string name="action_settings"> सेटिंग्स </string>
+
+    <string name="menu_home"> होम </string>
+    <string name="menu_video"> वीडियो </string>
+    <string name="menu_fet_video"> चुनिंदा वीडियो </string>
+    <string name="menu_doubt"> एक संदेह पूछें </string>
+    <string name="menu_activity"> गतिविधि </string>
+    <string name="menu_scan_book"> एक पुस्तक खोजें </string>
+    <string name="menu_share"> शेयर </string>
+    <string name="menu_download"> डाउनलोड </string>
+    <string name="menu_book"> पुस्तकें </string>
+    <string name="menu_logout"> लॉगआउट </string>
+
+    <string name="title_subjects"> विषय </string>
+    <string name="title_recent_videos"> हाल के वीडियो </string>
+    <string name="top_videos"> शीर्ष वीडियो </string>
+    <string name="latest_videos"> शिक्षकों द्वारा नवीनतम वीडियो </string>
+
+    <string name="chapter"> अध्याय सूची </string>
+    <string name="subject"> विषय </string>
+    <string name="videos"> वीडियो </string>
+    <string name="books"> ई बुक्स </string>
+    <string name="activity"> गतिविधि </string>
+
+    <string name="videosAllSubject"> वीडियो सभी विषय </string>
+    <string name="ebooksAllSubject"> ई बुक्स सभी विषय </string>
+    <string name="featured_videos"> चुनिंदा वीडियो </string>
+
+    <string name="password"> पासवर्ड </string>
+    <string name="repassword"> पासवर्ड फिर से दर्ज करें </string>
+    <string name="language"> भाषा </string>
+    <string name="update"> परिवर्तन सहेजें </string>
+    <string name="errorPasswordNotMatch"> दोनों पासवर्ड </string> से मेल नहीं खाते
+    <string name="errorLanguage"> कृपया भाषा चुनें </string>
+    <string name="dataupdate"> उपयोगकर्ता डेटा सफलतापूर्वक अपडेट किया गया। कृपया फिर से लॉगिन करें </string>
+    <string name="unabletofetchdata"> डेटा लाने में असमर्थ </string>
+
+    <string name="activity_type"> प्रकार: </string>
+    <string name="total_marks"> कुल अंक: </string>
+    <string name="total_questions"> प्रश्न: </string>
+    <string name="time_reequired"> समय: </string>
+
+    <string name="submit"> सबमिट करें </string>
+    <string name="outof"> आउट ऑफ </string>
+    <string name="question"> सवाल </string>
+    <string name="youG"> आपको मिली है </string>
+    <string name="inThisActivity"> इस गतिविधि में </string>
+    <string name="questionAttemped"> प्रश्न का प्रयास किया गया: </string>
+    <string name="rightQuestions"> सही प्रश्न: </string>
+    <string name="wrongQuestions"> गलत प्रश्न: </string>
+    <string name="error_option"> कृपया एक विकल्प चुनें </string>
+
+    <string name="default_notification_channel_id"> 123 </string>
+    <string name="fcm_message"> FCM Message </string>
+    <string name="err_barcode"> डिटेक्टर सेट नहीं कर सका! </string>
+    <string name="ok"> ठीक </string>
+    <string name="permission_camera_rationale"> कैमरे का एक्सेस पता लगाने के लिए आवश्यक है </string>
+    <string name="no_camera_permission"> यह एप्लिकेशन नहीं चल सकता क्योंकि इसमें कैमरा अनुमति नहीं है। आवेदन अब बाहर निकल जाएगा। </string>
+    <string name="low_storage_error"> कम डिवाइस स्टोरेज के कारण फेस डिटेक्टर निर्भरताएं डाउनलोड नहीं की जा सकतीं </string>
+    <string name="barcode_header"> "क्लिक करें बारकोड" बारकोड पढ़ने के लिए </string>
+    <string name="read_barcode"> बारकोड पढ़ें </string>
+    <string name="auto_focus"> ऑटो फोकस </string>
+    <string name="use_flash"> फ़्लैश का उपयोग करें </string>
+    <string name="barcode_success"> बारकोड सफलतापूर्वक पढ़ा गया </string>
+    <string name="barcode_failure"> कोई बारकोड कैप्चर नहीं किया गया </string>
+    <string name="barcode_error"> "बारकोड पढ़ने में त्रुटि:%1$s" </string>
+
+    <string name="scan_message"> कृपया अपने डिवाइस के कैमरे का उपयोग करके पुस्तक के ISBN को स्कैन करें </string>
+    <string name="menu_contact"> हमसे संपर्क करें </string>
+    <string name="contact_us"> हमसे संपर्क करें </string>
+    <string name="write_to_us"> हमें लिखें </string>
+    <string name="write_desc"> हम दो कार्य दिवसों में किसी भी प्रश्न को हल करने के लिए प्रतिबद्ध हैं! </string>
+    <string name="raise_a_request"> अनुरोध भेजें </string>
+
+    <string name = "call_us"> फ़ोन </string>
+    <string name = "phone_desc"> %c(कॉल शुल्क लागू) \nसत्यापन के लिए अपने यूज़र नेम को तैयार रखें! </string>
+    <string name = "call_support"> कॉल सपोर्ट </string>
+
+    <string name="welcome_message"> प्रिय %n,\nई लर्निंग में आपका स्वागत है! </string>
+
+    <string name="name"> नाम </string>
+    <string name="email"> ईमेल </string>
+    <string name="mobile"> मोबाइल </string>
+    <string name="message"> आपका प्रश्न </string>
+    <string name="send"> जमा करें </string>
+    <string name="call_center_no"> 9755014214 </string>
+    <string name="phone_call_permission"> कॉल करने के लिए, फ़ोन की अनुमति आवश्यक है </string>
+
+    <string name="check_name"> कृपया अपना नाम दर्ज करें </string>
+    <string name="check_message"> कृपया अपना संदेश लिखें </string>
+    <string name="message_saved"> आपका संदेश सफलतापूर्वक भेजा जा चुका है </string>
+    <string name="message_error"> हम इस समय संदेश भेजने में असमर्थ हैं </string>
+
+    <string name="your_doubt"> आपका संदेह </string>
+    <string name="check_subject"> कृपया अपने संदेह का विषय दर्ज करें </string>
+
+    <string name="activity_path">/ElearningContent/Chapter/activity.png</string>
+    <string name="activity1_path">/ElearningContent/Chapter/activity1.png</string>
+    <string name="chapter_path">/ElearningContent/Chapter/chapter.png</string>
+    <string name="books_path">/ElearningContent/Chapter/books.png</string>
+    <string name="ebook_path">/ElearningContent/Chapter/ebook.png</string>
+    <string name="mail_path">/ElearningContent/Chapter/mail.png</string>
+    <string name="video_path">/ElearningContent/Chapter/video.png</string>
+
+    <string name="motivational_video"> प्रेरक वीडियो </string>
+    <string name="featured_video"> चुनिंदा वीडियो </string>
+
+    <string name="my_favourite"> मेरा पसंदीदा </string>
+    <string name="video"> वीडियो </string>
+    <string name="book"> ई बुक्स </string>
+
+</resources>

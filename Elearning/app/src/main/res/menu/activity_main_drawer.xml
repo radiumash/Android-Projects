@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/menu_top" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/ic_video_library"
+            android:title="@string/menu_video" />
+        <item
+            android:id="@+id/nav_fet_video"
+            android:icon="@drawable/ic_video_library"
+            android:title="@string/menu_fet_video" />
+        <item
+            android:id="@+id/nav_ask_doubt"
+            android:icon="@drawable/ic_question_answer"
+            android:title="@string/menu_doubt" />
+        <item
+            android:id="@+id/nav_activity"
+            android:icon="@drawable/ic_local_activity"
+            android:title="@string/menu_activity" />
+
+        <item
+            android:id="@+id/nav_scan_book"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="@string/menu_scan_book" />
+    </group>
+
+    <group android:id="@+id/menu_middle" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_share" />
+        <item
+            android:id="@+id/nav_download"
+            android:icon="@drawable/ic_file_download"
+            android:title="@string/menu_download" />
+    </group>
+    <group android:id="@+id/menu_bottom" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>
